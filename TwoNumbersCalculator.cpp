@@ -36,9 +36,9 @@ int main()
         do {
             cout << "Введите число 1: ";
             cin >> n1;
-           if(number.set_num1(n1))
+           if(!number.set_num1(n1))
                cout << "Неверный ввод!" << endl;
-        } while (number.set_num1(n1));
+        } while (!number.set_num1(n1));
            
         do {
             cout << "Введите число 2: ";
